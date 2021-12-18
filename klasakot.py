@@ -6,7 +6,7 @@ class kot:
         self.dlugosc = 0
         self.wysokosc = 0
         self.wiek = 0
-        self.waga = 0
+        self.waga = 1
     def miauczenie(self):
         return "miauuuu"
     def jedzenie(self):

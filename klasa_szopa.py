@@ -23,5 +23,8 @@ garfield.kolorOczu = 'pomaranczowy'
 garfield.waga = 11
 garfield.dlugosc = 45
 
+garfield.jedzenie()
+
+
 print(garfield.waga)
 print(garfield.imie)
