@@ -1,3 +1,6 @@
+from klasakot import kot
+
+
 class szopa:
     def __init__(self, bok_a, bok_b, wys_h):
         self.podstawa_a = bok_a
@@ -12,3 +15,13 @@ szopa2 = szopa(5,7,8)
 
 print(szopa1.pomaluj())
 print(szopa2.pomaluj())
+
+garfield = kot
+garfield.imie = "Garfield"
+garfield.wiek = 11
+garfield.kolorOczu = 'pomaranczowy'
+garfield.waga = 11
+garfield.dlugosc = 45
+
+print(garfield.waga)
+print(garfield.imie)
