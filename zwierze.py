@@ -26,5 +26,18 @@ Simba.wiek = 34
 Simba.nazwa = 'Lew Simba'
 Simba.waga = 450
 
+class Papuga(Zwierze):
+    def __init__(self, nazwa, dlg_skrzydel):
+        self.iloscPior = 4000
+        self.nazwa = nazwa
+        self.dlg_skrzydel = dlg_skrzydel
+
+class Hybryda(Lew, Papuga)
+    pass
+
+hyb = Hybryda()
+hyb.
+
+
 Simba.podaj_dane()
 Dumbo.podaj_dane()
